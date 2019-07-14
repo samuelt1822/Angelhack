@@ -11,9 +11,10 @@
     </div>
 
     <div>
-      <a href="../createaccountpage/createaccountpage.component.html" class="create-account">Create Account</a>
+      <a routerLink="create-account">Create Account</a>
     </div>
 
-    <button type="submit" class="btn">Submit</button>
+    <button (click)="onSubmit()" type="submit" class="btn">Submit</button>
   </form>
 </div>
+<router-outlet></router-outlet>
