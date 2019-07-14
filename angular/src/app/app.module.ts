@@ -7,11 +7,15 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { UserComponent } from './components/user/user.component';
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import {CreateaccountpageComponent} from './components/createaccountpage/createaccountpage.component';
+import {LoginComponent} from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
+    CreateaccountpageComponent,
+    LoginComponent,
     UserComponent
   ],
   imports: [

@@ -1,0 +1,23 @@
+form {
+  display: block;
+}
+
+.btn{
+  background-color: lightblue;
+  border-radius: 12px;
+}
+
+.create-account {
+  font-size: 20px;
+}
+
+.form\=line{
+  font-family: Baskerville;
+  font-size: 30px;
+}
+
+.resizedTextbox {
+  height: 30px;
+  width: 150px;
+}
+
